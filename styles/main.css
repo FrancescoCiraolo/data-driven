@@ -1,0 +1,85 @@
+#main {
+    /*background-color: antiquewhite;*/
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.buttons-canvas {
+    /*border: solid 2px darkgreen;*/
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+h1, h2, h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.buttons {
+    width: max-content;
+}
+
+.button {
+    padding: 5px;
+    text-decoration: none;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+.button.last {
+    border-right: 2px solid;
+}
+
+.button.active {
+    border-bottom: darkgreen 2px dashed;
+    background-color: lightgreen;
+}
+
+.buttons-canvas canvas {
+    border: solid 2px darkgreen;
+    margin-top: 5px;
+}
+
+.alt_color {
+    background-color: lightgreen;
+    border-color: darkgreen;
+    color: black;
+}
+
+.main_color {
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.placeholder {
+    font-size: 30px;
+    color: red;
+}

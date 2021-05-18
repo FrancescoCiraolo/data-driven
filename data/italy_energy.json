@@ -1,0 +1,53 @@
+{
+  "consumption": 293081.067,
+  "production": {
+    "total": 333005.789,
+    "sources": [
+      {
+        "color": "fuchsia",
+        "label": "Import",
+        "value": 43898.789
+      },
+      {
+        "color": "#666666",
+        "label": "Carbone",
+        "value": 28469.868
+      },
+      {
+        "color": "black",
+        "label": "Altre fonti\nnon rinnovabili",
+        "value": 15968.815
+      },
+      {
+        "color": "#e7d7b1",
+        "label": "Gas Naturale",
+        "value": 128537.553
+      },
+      {
+        "color": "#469F70",
+        "label": "Biocombustibile",
+        "value": 42974.412
+      },
+      {
+        "color": "blue",
+        "label": "Idroelettrica",
+        "value": 50502.751
+      },
+      {
+        "color": "brown",
+        "label": "Geotermica",
+        "value": 6105.39
+      },
+      {
+        "color": "cyan",
+        "label": "Eolica",
+        "value": 17716.434
+      },
+      {
+        "color": "yellow",
+        "label": "Fotovoltaico",
+        "value": 22653.838
+      }
+    ]
+  }
+}
