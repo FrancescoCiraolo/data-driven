@@ -83,3 +83,9 @@ h1, h2, h3 {
     font-size: 30px;
     color: red;
 }
+
+.two_divs {
+    width: 50%;
+    display: block;
+    float: left;
+}
