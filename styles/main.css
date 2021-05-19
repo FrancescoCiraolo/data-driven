@@ -14,6 +14,14 @@
     padding-top: 5px;
 }
 
+.buttons-map {
+    /*border: solid 2px darkgreen;*/
+    width: max-content;
+    display: block;
+    margin: 10px auto;
+    padding-top: 5px;
+}
+
 p {
     width: 70%;
     margin-left: auto;
@@ -68,6 +76,11 @@ h1, h2, h3 {
     margin-top: 5px;
 }
 
+.buttons-map .map {
+    border: solid 2px darkgreen;
+    margin-top: 5px;
+}
+
 .alt_color {
     background-color: lightgreen;
     border-color: darkgreen;
@@ -88,4 +101,11 @@ h1, h2, h3 {
     width: 50%;
     display: block;
     float: left;
+}
+
+#fallout-map, #cover-map {
+    height: 900px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
