@@ -1,0 +1,50 @@
+{
+  "hazard": [
+    {
+      "norm_dist": 188.4658877,
+      "color": "#FFEE00",
+      "radiation": 43,
+      "abs_fukushima": 1000000
+    },
+    {
+      "norm_dist": 94.23294384,
+      "color": "#FBB806",
+      "radiation": 1030,
+      "abs_fukushima": 500000
+    },
+    {
+      "norm_dist": 18.84658877,
+      "color": "#F6830C",
+      "radiation": 13400,
+      "abs_fukushima": 100000
+    },
+    {
+      "norm_dist": 9.423294384,
+      "color": "#F24D11",
+      "radiation": 69000,
+      "abs_fukushima": 50000
+    },
+    {
+      "norm_dist": 0.3769317753,
+      "color": "#ED1717",
+      "radiation": 145000,
+      "abs_fukushima": 2000
+    }
+  ],
+  "plants": [
+    {
+      "name": "Belleville NPP",
+      "country": "France",
+      "lat": 47.510534,
+      "lon": 2.8761864,
+      "power": 2620
+    },
+    {
+      "name": "Blayais NPP",
+      "country": "France",
+      "lat": 45.255833,
+      "lon": -0.693056,
+      "power": 3640
+    }
+  ]
+}
