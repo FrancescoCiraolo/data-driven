@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    let map = L.map('fallout-map').setView([43.5, 13.5], 5);
+    let map = L.map('fallout-map').setView([45.5, 12.5], 5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);

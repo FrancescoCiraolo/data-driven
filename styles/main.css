@@ -2,7 +2,8 @@
     /*background-color: antiquewhite;*/
     display: block;
     margin: 0 auto;
-    width: 90%;
+    /*width: 90%;*/
+    max-width: 700px;
 }
 
 .buttons-canvas {
@@ -109,3 +110,5 @@ h1, h2, h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+

@@ -27,7 +27,7 @@
     let sPoint = tick;
 
     function load() {
-        canvas = d3.select("#sources-box canvas");
+        canvas = d3.select("#italy-energy canvas");
         width = +canvas.attr("width");
         height = +canvas.attr("height");
         context = canvas.node().getContext('2d');
@@ -191,7 +191,9 @@
         simulation.restart();
 
         target = $(target)
-        target.parent().find(".button").removeClass("active");
+        if (!target.hasClass("button"))
+            target = target.parent(".button")
+        target.parent(".buttons").find(".button").removeClass("active");
         target.addClass("active");
     }
 

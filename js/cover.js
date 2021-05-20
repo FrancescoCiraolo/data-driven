@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    let map = L.map('cover-map').setView([43.5, 13.5], 6);
+    let map = L.map('cover-map').setView([42.3, 13.5], 6);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
@@ -55,8 +55,10 @@ $(document).ready(() => {
         last = x;
 
         target = $(target)
-        target.parent().find(".button").removeClass("active").removeClass("alt_color").addClass("main_color");
-        target.addClass("active").addClass("alt_color").removeClass("main_color");
+        if (!target.hasClass("button"))
+            target = target.parent(".button");
+        target.parent(".buttons").find(".button").removeClass("active")/*.removeClass("alt_color")*//*.addClass("main_color")*/;
+        target.addClass("active")/*.addClass("alt_color")*//*.removeClass("main_color")*/;
     }
 
     $.ajax({

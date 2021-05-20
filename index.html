@@ -12,39 +12,61 @@
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
 
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-contour.v1.min.js"></script>
 
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="js/temp.js"></script>
     <script src="js/energy-sources.js"></script>
     <script src="js/fallout.js"></script>
     <script src="js/cover.js"></script>
+    <script src="js/attitude.js"></script>
 </head>
 <body>
 <div id="main">
-    <h1 class="main_color top">L'Italia nucleare</h1>
+    <div class="text-div">
+        <h1 class="main_color top">L'Italia nucleare</h1>
+    </div>
 
-    <p class="lorem_ipsum"></p>
+    <div class="text-div abstract">
+        <p class="lorem_ipsum"></p>
+    </div>
 
-    <div class="flourish-embed flourish-chart" data-src="visualisation/6194388">
-        <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <div class="text-div">
+        <p class="lorem_ipsum"></p>
+    </div>
+
+    <div class="graph-div">
+        <h3 class="main_color">Il consumo energetico in Europa (1990-2020)</h3>
+        <div class="buttons"></div>
+        <div class="graph flourish-embed flourish-chart" data-src="visualisation/6194388"></div>
     </div>
 
     <h2 class="main_color">Uno sguardo all'energia</h2>
 
     <h3 class="main_color">In Italia</h3>
 
-    <div id="sources-box" class="buttons-canvas">
-        <div class="buttons center">
-            <a href="#0"
-               id="s-consumption" class="button active alt_color">Consumo elettrico
-            </a><a href="#0"
-                   id="s-sources" class="button main_color last">Sorgenti elettriche</a>
+    <div id="italy-energy" class="graph-div">
+        <h3 class="main_color">L'energia in Italia</h3>
+        <div class="buttons">
+            <a id="s-consumption" class="button main_color active" href="#0"><p>Consumo</p></a>
+            <a id="s-sources" class="button main_color last" href="#0"><p>Sorgenti</p></a>
         </div>
-        <canvas class="center" width="700" height="700"></canvas>
+        <canvas class="center" width="698" height="700"></canvas>
     </div>
+
+<!--    <div id="sources-box" class="buttons-canvas">-->
+<!--        <div class="buttons center">-->
+<!--            <a href="#0"-->
+<!--               id="s-consumption" class="button active alt_color">Consumo elettrico-->
+<!--            </a><a href="#0"-->
+<!--                   id="s-sources" class="button main_color last">Sorgenti elettriche</a>-->
+<!--        </div>-->
+<!--        <canvas class="center" width="700" height="700"></canvas>-->
+<!--    </div>-->
 
     <h1 class="placeholder">[Mappa di copertura]</h1>
 
@@ -54,10 +76,10 @@
 
     <h3 class="main_color">e in Europa</h3>
 
-    <div>
-        <div class="flourish-embed flourish-chart" data-src="visualisation/6184340">
-            <script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
+    <div class="graph-div">
+        <h3 class="main_color">Mercato energetico per paesi pro(*) e contro il nucleare</h3>
+        <div class="buttons"></div>
+        <div class="flourish-embed flourish-chart" data-src="visualisation/6184340"></div>
     </div>
 
     <p class="lorem_ipsum"></p>
@@ -72,14 +94,24 @@
 
     <h3 class="main_color">Consensi</h3>
 
-    <div>
-        <div class="flourish-embed flourish-slope two_divs" data-src="visualisation/6193474">
-            <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <div id="attitude" class="graph-div">
+        <h3>Variazione di consenso a seguito dei grandi incidenti</h3>
+        <div class="buttons">
+            <a id="a-chernobyl" class="button main_color" href="#0"><p>Chernobyl</p></a>
+            <a id="a-fukushima" class="button main_color last" href="#0"><p>Fukushima</p></a>
         </div>
-        <div class="flourish-embed flourish-slope two_divs" data-src="visualisation/6193442">
-            <script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
+        <div id="chernobyl-slope" class="flourish-embed flourish-slope active" data-src="visualisation/6193474"></div>
+        <div id="fukushima-slope" class="flourish-embed flourish-slope loading" data-src="visualisation/6193442"></div>
     </div>
+
+<!--    <div>-->
+<!--        <div class="flourish-embed flourish-slope two_divs" data-src="visualisation/6193474">-->
+<!--            <script src="https://public.flourish.studio/resources/embed.js"></script>-->
+<!--        </div>-->
+<!--        <div class="flourish-embed flourish-slope two_divs" data-src="visualisation/6193442">-->
+<!--            <script src="https://public.flourish.studio/resources/embed.js"></script>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <!--    <div id="ten-comparison">-->
     <!--        <div class="flourish-embed flourish-chart" data-src="visualisation/6182587">-->
@@ -91,19 +123,37 @@
 
     <h3 class="main_color">Storia</h3>
 
-    <div id="fallout-map"></div>
+    <div id="fallout" class="graph-div">
+        <h3 class="main_color">Il rischio a confine</h3>
+        <i>Clicca sui marker, centrati in impianti nucleari, per vederne il raggio di eventuale esplosioni.</i>
+        <div class="buttons"></div>
+        <div id="fallout-map" class="map"></div>
+    </div>
 
-    <div class="buttons-map">
-        <div class="buttons center">
-            <a href="#0"
-               id="c-wind" class="button main_color">Energia eolica
-            </a><a href="#0"
-                   id="c-solar" class="button main_color">Energia solare
-        </a><a href="#0"
-               id="c-nuclear" class="button main_color last">Energia nucleare</a>
+
+    <div id="cover" class="graph-div">
+        <h3 class="main_color">Quanta Italia si copre per sorgente</h3>
+        <i>Quanto suolo è necessario "sacrificare" per ottenere il fabbisogno annuale dell'Italia per alcune fonti</i>
+        <div class="buttons">
+            <a id="c-wind" class="button main_color" href="#0"><p>Eolico</p></a>
+            <a id="c-solar" class="button main_color" href="#0"><p>Solare</p></a>
+            <a id="c-nuclear" class="button main_color last" href="#0"><p>Nucleare</p></a>
         </div>
         <div id="cover-map" class="map"></div>
     </div>
+
+
+<!--    <div class="buttons-map">-->
+<!--        <div class="buttons center">-->
+<!--            <a href="#0"-->
+<!--               id="c-wind" class="button main_color">Energia eolica-->
+<!--            </a><a href="#0"-->
+<!--                   id="c-solar" class="button main_color">Energia solare-->
+<!--        </a><a href="#0"-->
+<!--               id="c-nuclear" class="button main_color last">Energia nucleare</a>-->
+<!--        </div>-->
+
+<!--    </div>-->
 
     <p class="lorem_ipsum"></p>
 
