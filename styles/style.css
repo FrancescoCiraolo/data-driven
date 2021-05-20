@@ -1,0 +1,104 @@
+body > div {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.alt_color {
+    background-color: lightgreen;
+    border-color: darkgreen;
+}
+
+.active {
+    background-color: lightgreen;
+}
+
+.active p {
+    color: black;
+}
+
+.abstract {
+    margin-left: 50px;
+    color: gray;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h1, h2 {
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+p {
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+}
+
+.map {
+    height: 700px;
+    width: 100%;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    /*border: darkgreen 2px solid;*/
+    margin: 0;
+    float: left;
+}
+
+.button.last {
+    border-right: 2px solid;
+}
+
+.button p {
+    line-height: 0;
+    text-align: center;
+}
+
+.main_color {
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.graph-div h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: darkgreen;
+}
+
+.graph-div i {
+    color: #999999;
+    padding: 5px 0;
+    margin: 0 0 0 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    visibility: hidden;
+    height: 0;
+}
+
+.graph-div canvas
+/*, .graph-div .flourish-embed*/
+{
+    background-color: #FAFAFA88;
+    /*border: 2px solid darkgreen;*/
+}
+
+.graph-div {
+    border-right: darkgreen 2px solid;
+}
+
+.graph-div h3, .graph-div i {
+    padding-right: 5px;
+}
