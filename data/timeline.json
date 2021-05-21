@@ -1,0 +1,47 @@
+[
+  {
+    "date": 1963,
+    "title": "Primato Europeo",
+    "description": "Inaugurato a Latina il più potente impianto europeo"
+  },
+  {
+    "date": 1966,
+    "title": "Podio mondiale",
+    "description": "Terzo produttore al mondo dopo USA e Inghilterra"
+  },
+  {
+    "date": 1982,
+    "title": "",
+    "description": "Inaugurazione quarto e ultimo reattore a Caorso, Piacenza"
+  },
+  {
+    "date": 1982,
+    "title": "",
+    "description": "Impianto di Sessa Aurunca viene spento dopo un guasto"
+  },
+  {
+    "date": 1987,
+    "title": "Referendum",
+    "description": "Tre referendum dopo Chernobyl per abrogare la norma che concedeva al CIPE la facoltà di scelta dei siti stessi in presenza di un mancato accordo in tal senso con i comuni interessati, e a impedire all'Enel di partecipare alla costruzione di centrali elettronucleari all'estero. 80% dei votanti a favore."
+  },
+  {
+    "date": "1988-1990",
+    "title": "Effetti",
+    "description": "Chiusura dei restanti tre impianti nucleari"
+  },
+  {
+    "date": 1999,
+    "title": "",
+    "description": "Avvio smantellamento dei quattro siti nucleari con l'obbiettivo di essere rilasciati senza vincoli radiologici entro il 2025"
+  },
+  {
+    "date": 2005,
+    "title": "Nuovo tentativo",
+    "description": "Aumento di prezzo di gas e petrolio; si riaccende un dibattito; il presidente Berlusconi propone la costruzione di una centrale"
+  },
+  {
+    "date": 2011,
+    "title": "Non sa da fare",
+    "description": "Referendum post Fukushima, votano il 55% degli aventi diritto; risultati schiaccianti 94% contro il nucleare"
+  }
+]
