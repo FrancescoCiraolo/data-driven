@@ -33,18 +33,494 @@
   ],
   "plants": [
     {
+      "name": "Metsamor Nuclear Power Plant",
+      "country": "Armenia",
+      "lat": "40.180.844",
+      "lon": "44.148.908",
+      "power": 815
+    },
+    {
+      "name": "Doel Nuclear Power Station",
+      "country": "Belgium",
+      "lat": "51.322.372",
+      "lon": "4.261.236",
+      "power": 2935
+    },
+    {
+      "name": "Tihange Nuclear Power Station,",
+      "country": "Belgium",
+      "lat": "50.534.694",
+      "lon": "5.271.378",
+      "power": 3008
+    },
+    {
+      "name": "Kozloduy NPP",
+      "country": "Bulgaria",
+      "lat": "43.746.111",
+      "lon": "23.770.556",
+      "power": "1,966"
+    },
+    {
+      "name": "Dukovany NPP",
+      "country": "Czech Republic",
+      "lat": "49.086.333",
+      "lon": "16.145.439",
+      "power": "2,020"
+    },
+    {
+      "name": "Temelín NPP",
+      "country": "Czech Republic",
+      "lat": 49.18,
+      "lon": "14.376.111",
+      "power": 2160
+    },
+    {
       "name": "Belleville NPP",
       "country": "France",
-      "lat": 47.510534,
-      "lon": 2.8761864,
+      "lat": "47.510.534",
+      "lon": "28.761.864",
       "power": 2620
     },
     {
       "name": "Blayais NPP",
       "country": "France",
-      "lat": 45.255833,
+      "lat": "45.255.833",
       "lon": -0.693056,
       "power": 3640
+    },
+    {
+      "name": "Bugey",
+      "country": "France",
+      "lat": 45.798333,
+      "lon": "5.270.833",
+      "power": 3580
+    },
+    {
+      "name": "Cattenom",
+      "country": "France",
+      "lat": "49.415.833",
+      "lon": "6.218.056",
+      "power": 5200
+    },
+    {
+      "name": "Chinon",
+      "country": "France",
+      "lat": 472.325,
+      "lon": 0.1703,
+      "power": 3620
+    },
+    {
+      "name": "Chooz",
+      "country": "France",
+      "lat": 50.09,
+      "lon": "4.789.444",
+      "power": 3000
+    },
+    {
+      "name": "Civaux",
+      "country": "France",
+      "lat": "46.456.667",
+      "lon": 0.652778,
+      "power": 2990
+    },
+    {
+      "name": "Cruas NPP",
+      "country": "France",
+      "lat": "44.633.056",
+      "lon": "4.756.667",
+      "power": 3660
+    },
+    {
+      "name": "Dampierre NPP",
+      "country": "France",
+      "lat": "47.733.681",
+      "lon": "2.517.285",
+      "power": 3560
+    },
+    {
+      "name": "Flamanville NPP",
+      "country": "France",
+      "lat": "49.536.389",
+      "lon": "-1.881.667",
+      "power": 4230
+    },
+    {
+      "name": "Golfech NPP",
+      "country": "France",
+      "lat": 441.067,
+      "lon": 0.8453,
+      "power": 2620
+    },
+    {
+      "name": "Gravelines NPP",
+      "country": "France",
+      "lat": "51.015.278",
+      "lon": "2.136.111",
+      "power": 5460
+    },
+    {
+      "name": "Nogent NPP",
+      "country": "France",
+      "lat": "48.515.278",
+      "lon": "3.517.778",
+      "power": 2620
+    },
+    {
+      "name": "Paluel NPP",
+      "country": "France",
+      "lat": "49.858.056",
+      "lon": 0.635556,
+      "power": 5400
+    },
+    {
+      "name": "Penly NPP",
+      "country": "France",
+      "lat": "49.976.667",
+      "lon": "1.211.944",
+      "power": 2660
+    },
+    {
+      "name": "Saint-Alban NPP",
+      "country": "France",
+      "lat": "45.404.296",
+      "lon": "4.755.535",
+      "power": 2670
+    },
+    {
+      "name": "Saint-Laurent-B NPP",
+      "country": "France",
+      "lat": 4.772,
+      "lon": 15.775,
+      "power": 1830
+    },
+    {
+      "name": "Tricastin NPC",
+      "country": "France",
+      "lat": "44.329.722",
+      "lon": "4.732.222",
+      "power": 3660
+    },
+    {
+      "name": "KRB Unit C",
+      "country": "Germany",
+      "lat": "48.515.538",
+      "lon": "10.402.079",
+      "power": 1288
+    },
+    {
+      "name": "GKN Unit 2",
+      "country": "Germany",
+      "lat": "49.040.621",
+      "lon": 917.559,
+      "power": 1269
+    },
+    {
+      "name": "KKI Isar Unit 2",
+      "country": "Germany",
+      "lat": "48.605.553",
+      "lon": "12.293.165",
+      "power": 1365
+    },
+    {
+      "name": "KWG",
+      "country": "Germany",
+      "lat": "52.034.875",
+      "lon": "9.409.779",
+      "power": 1360
+    },
+    {
+      "name": "KBR",
+      "country": "Germany",
+      "lat": "53.850.666",
+      "lon": 934.576,
+      "power": 1326
+    },
+    {
+      "name": "KKE",
+      "country": "Germany",
+      "lat": "52.471.697",
+      "lon": "7.320.639",
+      "power": 1363
+    },
+    {
+      "name": "Paks",
+      "country": "Hungary",
+      "lat": 465.725,
+      "lon": "18.854.167",
+      "power": 2000
+    },
+    {
+      "name": "Borssele Nuclear Power Station",
+      "country": "Netherlands",
+      "lat": 51.431,
+      "lon": 3.717,
+      "power": 485
+    },
+    {
+      "name": "Cernavodă Nuclear Power Plant",
+      "country": "Romania",
+      "lat": "44.320.302",
+      "lon": "28.059.361",
+      "power": 1400
+    },
+    {
+      "name": "Balakovskaya",
+      "country": "Russia",
+      "lat": "52.092.269",
+      "lon": "47.951.139",
+      "power": 4000
+    },
+    {
+      "name": "Beloyarskaya",
+      "country": "Russia",
+      "lat": "56.841.344",
+      "lon": "61.319.097",
+      "power": 1485
+    },
+    {
+      "name": "Bilibibskaya",
+      "country": "Russia",
+      "lat": "68.050.556",
+      "lon": "166.539.444",
+      "power": 36
+    },
+    {
+      "name": "Dimitrovgradskaya",
+      "country": "Russia",
+      "lat": "54.185.869",
+      "lon": "49.473.056",
+      "power": 12
+    },
+    {
+      "name": "Kalininskaya",
+      "country": "Russia",
+      "lat": "57.903.331",
+      "lon": "35.055.978",
+      "power": 4000
+    },
+    {
+      "name": "Kolskaya",
+      "country": "Russia",
+      "lat": "67.465.556",
+      "lon": "32.478.889",
+      "power": 1760
+    },
+    {
+      "name": "Kurskaya",
+      "country": "Russia",
+      "lat": "51.677.506",
+      "lon": "35.609.044",
+      "power": 4000
+    },
+    {
+      "name": "Leningradskaya",
+      "country": "Russia",
+      "lat": "59.851.983",
+      "lon": "29.048.153",
+      "power": 2935
+    },
+    {
+      "name": "Novovoronezh",
+      "country": "Russia",
+      "lat": "51.269.381",
+      "lon": "39.197.158",
+      "power": 1417
+    },
+    {
+      "name": "Smolenskaya",
+      "country": "Russia",
+      "lat": "5.416.815",
+      "lon": "33.239.683",
+      "power": 3000
+    },
+    {
+      "name": "Volgodonskaya",
+      "country": "Russia",
+      "lat": "47.584.933",
+      "lon": "42.367.181",
+      "power": 4030
+    },
+    {
+      "name": "Bohunice NPP",
+      "country": "Slovakia",
+      "lat": "48.494.444",
+      "lon": "17.681.944",
+      "power": 942
+    },
+    {
+      "name": "Mochovce NPP",
+      "country": "Slovakia",
+      "lat": "48.263.889",
+      "lon": "18.456.944",
+      "power": 940
+    },
+    {
+      "name": "Krško Nuclear Power Plant",
+      "country": "Slovenia",
+      "lat": "45.938.202",
+      "lon": "15.515.426",
+      "power": 696
+    },
+    {
+      "name": "Almaraz NPP",
+      "country": "Spain",
+      "lat": "39.807.399",
+      "lon": "-5.698.557",
+      "power": 2093
+    },
+    {
+      "name": "Ascó Unit I",
+      "country": "Spain",
+      "lat": "41.199.711",
+      "lon": 0.568414,
+      "power": 1030
+    },
+    {
+      "name": "Ascó Unit II",
+      "country": "Spain",
+      "lat": "41.199.711",
+      "lon": 0.568414,
+      "power": 1030
+    },
+    {
+      "name": "Cofrentes NPP",
+      "country": "Spain",
+      "lat": "39.213.137",
+      "lon": "-1.050.911",
+      "power": 994
+    },
+    {
+      "name": "Trillo NPP",
+      "country": "Spain",
+      "lat": "40.701.464",
+      "lon": "-2.622.836",
+      "power": 1066
+    },
+    {
+      "name": "Vandellòs Unit I",
+      "country": "Spain",
+      "lat": "40.951.065",
+      "lon": 0.866396,
+      "power": 480
+    },
+    {
+      "name": "Vandellòs Unit II",
+      "country": "Spain",
+      "lat": "40.950.701",
+      "lon": 0.865345,
+      "power": 992
+    },
+    {
+      "name": "Forsmark",
+      "country": "Sweden",
+      "lat": "60.403.333",
+      "lon": "18.166.667",
+      "power": 3320
+    },
+    {
+      "name": "Oskarshamn",
+      "country": "Sweden",
+      "lat": "57.415.556",
+      "lon": "16.671.111",
+      "power": 2500
+    },
+    {
+      "name": "Ringhals",
+      "country": "Sweden",
+      "lat": "57.259.722",
+      "lon": "12.110.833",
+      "power": "2,19"
+    },
+    {
+      "name": "Beznau Nuclear Power Plant",
+      "country": "Switzerland",
+      "lat": "47.552.466",
+      "lon": "8.228.594",
+      "power": 365
+    },
+    {
+      "name": "Gösgen Nuclear Power Plant",
+      "country": "Switzerland",
+      "lat": "47.365.975",
+      "lon": "7.966.676",
+      "power": 970
+    },
+    {
+      "name": "Leibstadt Nuclear Power Plant",
+      "country": "Switzerland",
+      "lat": "47.601.693",
+      "lon": "8.182.604",
+      "power": 1165
+    },
+    {
+      "name": "Khmelnytskyi",
+      "country": "Ukraine",
+      "lat": "50.302.512",
+      "lon": "26.647.875",
+      "power": 2000
+    },
+    {
+      "name": "Rivne",
+      "country": "Ukraine",
+      "lat": "51.326.857",
+      "lon": "25.890.634",
+      "power": 2819
+    },
+    {
+      "name": "South Ukraine",
+      "country": "Ukraine",
+      "lat": "47.812.031",
+      "lon": "31.217.372",
+      "power": 3000
+    },
+    {
+      "name": "Zaporizhzhia",
+      "country": "Ukraine",
+      "lat": "47.508.519",
+      "lon": "34.584.392",
+      "power": 6000
+    },
+    {
+      "name": "Hartlepool",
+      "country": "United Kingdom",
+      "lat": 54.635,
+      "lon": "-1.180.833",
+      "power": 1320
+    },
+    {
+      "name": "Heysham",
+      "country": "United Kingdom",
+      "lat": "54.028.889",
+      "lon": "-2.916.111",
+      "power": 2400
+    },
+    {
+      "name": "Hinkley Point B",
+      "country": "United Kingdom",
+      "lat": 51.209,
+      "lon": -31.275,
+      "power": 1310
+    },
+    {
+      "name": "Hunterston B",
+      "country": "United Kingdom",
+      "lat": 557.221,
+      "lon": -48.901,
+      "power": 1220
+    },
+    {
+      "name": "Sizewell B",
+      "country": "United Kingdom",
+      "lat": 52.215,
+      "lon": 161.972,
+      "power": 420
+    },
+    {
+      "name": "Torness",
+      "country": "United Kingdom",
+      "lat": "5.596.799",
+      "lon": -240.908,
+      "power": 1364
     }
   ]
 }
