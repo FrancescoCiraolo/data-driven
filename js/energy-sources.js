@@ -1,31 +1,31 @@
-{
 // Key variables:
-    const strength = -0.10;         // default repulsion
-    const centeringStrength = 0.01; // power of centering force for two clusters
-    const velocityDecay = 0.15;     // velocity decay: higher value, less overshooting
-    const n = 500;		          // number of initial nodes
-    const cycles = 300;	          // number of ticks before stopping.
+const strength = -0.10;         // default repulsion
+const centeringStrength = 0.01; // power of centering force for two clusters
+const velocityDecay = 0.15;     // velocity decay: higher value, less overshooting
+const n = 500;		          // number of initial nodes
+const cycles = 300;	          // number of ticks before stopping.
 
-    let canvas;
-    let width;
-    let height;
-    let context;
+let canvas;
+let width;
+let height;
+let context;
 
-    let centerMessage;
-    let outerRadius;
-    let innerRadius;
-    let clusterDistance;
-    let startCenter;
+let centerMessage;
+let outerRadius;
+let innerRadius;
+let clusterDistance;
+let startCenter;
 
-    let sources;
-    let nodes;
+let sources;
+let nodes;
 
-    let simulation;
-    let tick = 0;
-    let init = true;
-    let direction = false;
-    let sPoint = tick;
+let simulation;
+let tick = 0;
+let init = true;
+let direction = false;
+let sPoint = tick;
 
+{
     function load() {
         canvas = d3.select("#italy-energy canvas");
         width = +canvas.attr("width");
@@ -49,6 +49,7 @@
             update(true, e.target);
         })
 
+        console.log(n);
         $.ajax("data/italy_energy.json").done(parseData);
     }
 

@@ -10,14 +10,6 @@ $(document).ready(function () {
         }).addTo(map);
 
         let circles = L.featureGroup();
-        for (let i = 0; i < hazard.length; i++) {
-            L.circle([0, 0], {
-                color: hazard[i].color,
-                fillColor: hazard[i].color,
-                fillOpacity: 0.5,
-                radius: hazard[i].abs_fukushima
-            }).addTo(circles).bindPopup("µSv/h >= " + hazard[i].radiation);
-        }
 
         circles.addTo(map);
 
