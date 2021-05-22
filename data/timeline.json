@@ -20,13 +20,18 @@
     "description": "Impianto di Sessa Aurunca viene spento dopo un guasto"
   },
   {
+    "date": 1986,
+    "title": "Disastro di Chernobyl",
+    "description": "L'incidente provoca la mobilitazione delle associazioni anti-nucleare"
+  },
+  {
     "date": 1987,
     "title": "Referendum",
-    "description": "Tre referendum dopo Chernobyl per abrogare la norma che concedeva al CIPE la facoltà di scelta dei siti stessi in presenza di un mancato accordo in tal senso con i comuni interessati, e a impedire all'Enel di partecipare alla costruzione di centrali elettronucleari all'estero. 80% dei votanti a favore."
+    "description": "Tre referendum impediscono di fatto la prosecuzione del programma nucleare, con l'80% dei votanti a favore"
   },
   {
     "date": "1988-1990",
-    "title": "Effetti",
+    "title": "",
     "description": "Chiusura dei restanti tre impianti nucleari"
   },
   {
@@ -37,11 +42,11 @@
   {
     "date": 2005,
     "title": "Nuovo tentativo",
-    "description": "Aumento di prezzo di gas e petrolio; si riaccende un dibattito; il presidente Berlusconi propone la costruzione di una centrale"
+    "description": "C'è una potenziale riapertura a seguito del rincaro del gas e del petrolio"
   },
   {
     "date": 2011,
     "title": "Non sa da fare",
-    "description": "Referendum post Fukushima, votano il 55% degli aventi diritto; risultati schiaccianti 94% contro il nucleare"
+    "description": "Referendum post Fukushima, votano il 55% degli aventi diritto; i risultati sono schiaccianti: 94% contro il nucleare"
   }
 ]
