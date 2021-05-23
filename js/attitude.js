@@ -24,8 +24,11 @@ $(document).ready(() => {
         chernobyl.addClass("hidden");
     });
 
-    window.setTimeout(() => {
-        chernobylB.click()
-        fukushima.removeClass("loading");
-    }, 1500)
+    chernobylB.click()
+    fukushima.removeClass("loading");
+
+    // window.setTimeout(() => {
+    //     chernobylB.click()
+    //     fukushima.removeClass("loading");
+    // }, 1500)
 });
