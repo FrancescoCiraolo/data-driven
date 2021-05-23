@@ -1,9 +1,13 @@
-$(document).ready(() => {
-    let chernobyl = $("#chernobyl-slope");
-    let fukushima = $("#fukushima-slope");
+let chernobyl;
+let fukushima;
+let chernobylB;
+let fukushimaB;
 
-    let chernobylB = $('#a-chernobyl');
-    let fukushimaB = $('#a-fukushima');
+$(document).ready(() => {
+    chernobyl = $("#chernobyl-slope");
+    fukushima = $("#fukushima-slope");
+    chernobylB = $('#a-chernobyl');
+    fukushimaB = $('#a-fukushima');
 
     chernobylB.on("click", () => {
         console.log("A£")
